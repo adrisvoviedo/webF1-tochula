@@ -1,0 +1,137 @@
+.hero {
+  display: flex;
+  background-image: url(./imagenes/alonso_tomando_sol.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  aspect-ratio: 16/9;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  text-align: left;
+  flex-wrap: wrap;
+}
+p {
+  padding: 15px 0;
+}
+
+.cuerpo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gris {
+  background-color: lightgray;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 35px 0;
+  width: 75%;
+}
+
+.section1 h2 {
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+}
+
+.section1 li {
+  width: 50%;
+  margin: 5px 0;
+}
+
+.section2 {
+  gap: 35px;
+}
+.div_imagen1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.section2 img {
+  width: 50%;
+}
+.section2 h3 {
+  padding-bottom: 20px;
+}
+
+.caracteristicas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.caracteristicas li {
+  width: 33%;
+  min-width: 275px;
+  padding: 15px;
+}
+.caracteristicas img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.section4 {
+  gap: 35px;
+}
+.div_imagen2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.section4 img {
+  width: 50%;
+}
+
+.tarjetas {
+  gap: 50px;
+}
+.tarjetas li {
+  display: flex;
+  flex-direction: column;
+  max-width: 150px;
+  height: 400px;
+  min-width: 275px;
+  padding: 15px;
+  box-shadow: 0 0 5px 0 black;
+}
+.tarjetas img {
+  max-width: 100%;
+  padding-bottom: 10px;
+}
+
+.section6 {
+  flex-direction: row;
+  justify-content: space-between;
+}
+.section6 h2 {
+  width: 65%;
+}
+
+@media screen and (max-width: 600px) {
+  .section1 li {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .section2 {
+    flex-direction: column-reverse;
+  }
+  .section2 img {
+    width: 75%;
+  }
+  .section4 {
+    flex-direction: column-reverse;
+  }
+  .section4 img {
+    width: 75%;
+  }
+}

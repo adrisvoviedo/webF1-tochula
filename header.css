@@ -5,10 +5,6 @@
   padding: 0;
 }
 
-.movilOculto {
-  list-style: none;
-}
-
 header {
   display: flex;
   width: 100%;
@@ -18,21 +14,20 @@ header {
   align-items: center;
   background-color: rgb(21, 71, 53);
 }
-
+.fotoAlonso {
+  width: 120px;
+}
+.movilOculto {
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  font-size: 11px;
+  font-weight: bold;
+}
 .movilOculto a {
   outline: none;
   text-decoration: none;
   color: rgba(124, 173, 156, 0.889);
-}
-
-.fotoAlonso {
-  width: 120px;
-}
-
-.movilOculto {
-  display: flex;
-  font-size: 11px;
-  font-weight: bold;
 }
 
 .movilOculto li:hover {
@@ -53,15 +48,13 @@ header {
   display: none;
   user-select: none;
   padding: 5px;
-  border: 1px;
-  border-radius: 4px;
 }
 .iconoMenu {
   width: 35px;
   height: 35px;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .movilOculto {
     display: none;
     position: absolute;
@@ -88,6 +81,7 @@ header {
     display: block;
   }
   .burger:hover {
+    border-radius: 4px;
     background-color: rgba(40, 99, 78);
   }
   .burger {
