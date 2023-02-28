@@ -1,5 +1,3 @@
-# webF1-tochula
-
 INFORMACIÓN FERNANDO ALONSO
 
 - BIOGRAFÍA
@@ -44,4 +42,5 @@ Fueron 12 años previos a la Fórmula 1 de grandes éxitos por año, no estancan
 Año 2001, se produce su debut en las pistas de Fórmula 1 con tan sólo 20 años de edad. Fernando Alonso pactó con Ferrari ser piloto probador de Renault durante la temporada 2002.
 Gracias a la cesión de Minardi a Ferrari a Alonoso este pudo entrar en la Fórmula 1. Adelantó a los Benetton en el Gran Premio de España, lo que dejó sorprendidos a muchas personas.
 
-Año 2002
+
+
