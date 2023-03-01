@@ -13,6 +13,8 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: rgb(21, 71, 53);
+  position: sticky;
+  top: 0;
 }
 .fotoAlonso {
   width: 120px;
