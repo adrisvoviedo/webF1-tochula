@@ -16,6 +16,12 @@ ul {
 p {
   padding: 15px 0;
 }
+a{
+  background-color: rgb(21, 71, 53);
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+}
 
 .cuerpo {
   display: flex;
@@ -44,8 +50,11 @@ p {
 .section1 li {
   width: 50%;
   margin: 5px 0;
+  display: flex;
 }
-
+.section1 div{
+  gap: 12px;
+}
 .section2 {
   gap: 35px;
 }
