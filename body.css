@@ -28,7 +28,6 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 
 .gris {
@@ -57,12 +56,24 @@ a {
 
 .ventajas {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 12px;
 }
 
 .ventajas div {
-  margin-bottom: 20px;
-  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: column nowrap;
+  min-width: 45%;
+}
+.ventajas h3 {
+  align-self: center;
+}
+.ventajas p {
+  max-width: 500px;
 }
 
 .section2 {
@@ -87,7 +98,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   padding: 10px;
 }
 
@@ -143,7 +153,6 @@ a {
 .section6 h2 {
   width: 65%;
 }
-
 
 @media screen and (max-width: 600px) {
   .ventajas {
