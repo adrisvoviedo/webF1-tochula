@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contacto{
+    background-color: rgb(21, 71, 53);
+    color: white;
+  }
+
+  .form{
+    background-color: lightgray;
+  }
