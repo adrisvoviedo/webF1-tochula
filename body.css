@@ -18,13 +18,15 @@ ul {
 p {
   padding: 15px 0;
 }
+a {
+  text-decoration: none;
+}
 
 .cuerpo {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(32, 177, 32);
 }
 
 .gris {
@@ -39,6 +41,11 @@ p {
   padding: 35px 0;
   width: 75%;
 }
+.section1 a {
+  background-color: rgb(21, 71, 53);
+  color: white;
+  padding: 12px;
+}
 
 .section1 h2 {
   width: 100%;
@@ -46,9 +53,14 @@ p {
   padding: 15px;
 }
 
-.section1 li {
-  width: 50%;
-  margin: 5px 0;
+.ventajas {
+  display: flex;
+  gap: 12px;
+}
+
+.ventajas div {
+  margin-bottom: 20px;
+  max-width: 300px;
 }
 
 .section2 {
@@ -132,8 +144,9 @@ p {
 
 
 @media screen and (max-width: 600px) {
-  .section1 li {
+  .ventajas {
     width: 100%;
+    flex-direction: column;
   }
 }
 

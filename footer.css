@@ -1,0 +1,33 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer img {
+  aspect-ratio: 1/1;
+  height: 50px;
+}
+
+footer div {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+footer ul {
+  gap: 20px;
+}
+.arriba {
+  display: flex;
+  gap: 20px;
+}
+.abajo img {
+  border-radius: 50%;
+}
+.abajo {
+  display: flex;
+  flex-direction: column;
+}
