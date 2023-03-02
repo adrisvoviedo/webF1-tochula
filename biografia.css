@@ -1,0 +1,18 @@
+.title-bio h1{
+    text-align: center;
+    border: 12px;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    
+  }
+  .img-bio img{
+    border: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 4px 2px black;
+    display: block;
+    margin: 0 auto;
+    
+  }
+  
