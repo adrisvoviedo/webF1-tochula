@@ -32,7 +32,6 @@ footer ul {
   gap: 20px;
 }
 .arriba {
-  max-width: 75%;
   padding-top: 3rem;
   display: flex;
 }
@@ -42,7 +41,6 @@ footer ul {
 .abajo {
   display: flex;
   flex-direction: column;
-  max-width: 75%;
 }
 .abajo span {
   padding: 1rem 0;
