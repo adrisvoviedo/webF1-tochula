@@ -6,14 +6,14 @@ footer {
   background-color: rgba(21, 71, 53, 0.795);
 }
 footer img {
-  aspect-ratio: 1/1;
   height: 50px;
 }
-.redSocial{
-  width: 100px;
-  aspect-ratio: 1/4;
+
+.redSocial {
+  max-height: 50px;
+  max-width: 50px;
 }
-.textoFinal{
+.textoFinal {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -24,14 +24,15 @@ footer div {
   align-content: center;
   justify-content: center;
   gap: 20px;
-  margin: 20px 0;
+  padding: 6px 0;
 }
 footer ul {
   gap: 20px;
 }
 .arriba {
+  max-width: 75%;
+  padding-top: 4rem;
   display: flex;
-  gap: 20px;
 }
 .abajo img {
   border-radius: 50%;
@@ -39,4 +40,8 @@ footer ul {
 .abajo {
   display: flex;
   flex-direction: column;
+  max-width: 75%;
+}
+.abajo span {
+  padding: 1rem 0;
 }
