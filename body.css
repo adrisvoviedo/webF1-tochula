@@ -17,6 +17,7 @@ ul {
 
 p {
   padding: 15px 0;
+  text-align: justify;
 }
 a {
   text-decoration: none;
@@ -27,6 +28,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 .gris {
