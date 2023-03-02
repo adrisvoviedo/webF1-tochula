@@ -1,3 +1,9 @@
+body{
+    background-color: rgb(21, 71, 53);
+}
+
+
+
 .title-bio h1{
     text-align: center;
     border: 12px;
@@ -31,7 +37,8 @@
 
   }
   .texto-alineacion p{
-    margin-right: 12px;
+    margin-right: 20px;
+    color: white;
   }
   
   
