@@ -13,3 +13,23 @@
   .form{
     background-color: lightgray;
   }
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    text-align: left;
+    flex-wrap: wrap;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  .cuerpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
