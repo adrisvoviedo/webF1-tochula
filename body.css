@@ -28,7 +28,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+  text-align: center;
 }
 
 .gris {
@@ -49,6 +49,12 @@ a {
   padding: 12px;
 }
 
+.section6 a {
+  background-color: rgb(21, 71, 53);
+  color: white;
+  padding: 12px;
+}
+
 .section1 h2 {
   width: 100%;
   text-align: center;
@@ -57,12 +63,31 @@ a {
 
 .ventajas {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 12px;
 }
 
 .ventajas div {
-  margin-bottom: 20px;
-  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: column nowrap;
+  min-width: 45%;
+}
+.ventajas h3 {
+  align-self: center;
+}
+.section3 p{
+  text-align: justify;
+}
+section h2{
+  text-align: center;
+  text-decoration: underline;
+}
+.ventajas p {
+  max-width: 500px;
 }
 
 .section2 {
@@ -73,22 +98,30 @@ a {
   display: flex;
   flex-direction: column;
   width: 50%;
+  
 }
 
 .section2 img {
   width: 50%;
 }
 
+
+
 .section2 h3 {
   padding-bottom: 20px;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .caracteristicas {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   padding: 10px;
+}
+.caracteristicas h3{
+  margin-top: 12px;
+  text-align: center;
 }
 
 .caracteristicas li {
@@ -143,7 +176,15 @@ a {
 .section6 h2 {
   width: 65%;
 }
-
+.section4 p{
+  text-align: justify;
+}
+.section4 p{
+  font-style: italic;
+}
+.div_imagen2{
+  text-align: justify;
+}
 
 @media screen and (max-width: 600px) {
   .ventajas {

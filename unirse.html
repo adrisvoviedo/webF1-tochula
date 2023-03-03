@@ -4,54 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NANOCONTACTO</title>
-    <link rel="stylesheet" href="contact.css">
+    <title>INSCRIPCIÓN</title>
+    <link rel="stylesheet" href="unirse.css">
     <link rel="stylesheet" href="footer.css">
-    
 </head>
 <body>
-<div class="cuerpo ">
-    <div class="contacto" > 
-        <h1 >Contacto:</h1>
-        
-    </div>
-   
-    <a href="index.html">Página principal</a>
-
-    <div class="form">
-        <p>Rellene el siguiente formulario para ponerse en contacto con nosotros, tambien se admiten sugerencias.</p>
-    <form>
     
-    <label for="nombre">Nombre:</label> <br>
-    <input type="text" name="nombre" id="nombre"> <br><br>
-
-    <label for="apellidos">Apellidos:</label> <br>
-    <input type="text" name="apellidos" id="apellidos"> <br> <br>
-
-    <label for="telefono">Numero de telefono:</label><br>
-    <input type="tel" id="telefono" placeholder="Escribe tu numero de telefono"><br><br>
-    
-    <label for="email">Correo electronico:</label><br>
-    <input type="email" id="Correo" placeholder="Escribe tu correo electronico"><br><br>
     <form>
-        <label for="opcion">Elija el tipo de mensaje</label>
-        <select name="opcion" id="opcion">
-            <option value="Consulta">Consulta</option>
-            <option value="Sugerencia">Sugerencia</option>
-            <option value="Correccion de datos">Correccion</option>
+        <div class="contacto">
+            <h1>Formulario de inscripcion</h1>
+        </div>
             
-        </select>
-    </form><br><br>
+            <a href="index.html">Página principal</a> <br>
+         
+        <div class="form"> 
+            <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre"><br><br>
 
-    <textarea name="mensaje" rows="10" cols="30"> Escriba su mensaje</textarea> <br>
+        <label for="nombre">Apellidos:</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Escriba sus apellidos"><br><br>
 
-    <input type="checkbox" name="Aceptar la politica de privacidad" id="Aceptar la politica de privacidad">
-    <label for="Aceptar la politica de privacidad">Aceptar la politica de privacidad</label> <br><br>
+        <label for="direccion">Domicilio:</label><br>
+        <input type="text" id="direccion" name="direccion" placeholder="Escriba su domicilio"><br><br>
 
-    <button type="submit">Enviar formulario </button>
-    
-</div>
+        <label for="f_nacimiento">Fecha de Nacimiento:</label><br>
+        <input type="date" id="f_nacimiento" name="f_nacimiento"><br><br>
 
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="email@gmail.com"><br><br>
+
+        <label for="telefono">Teléfono:</label><br>
+        <input type="tel" id="telefono" name="telefono" placeholder="XXX XXX XXX"><br><br>
+        
+        <input type="button" value="ENVIAR FORMULARIO">
+
+    </form>
     <footer>
         <div class="cuerpo">
             <div class="arriba">
@@ -132,8 +119,11 @@
                 <span class="textoFinal">Arriba teneis las redes sociales del nano </span>
             </div>
         </div>
+        </div>
+        
     </footer>
     
     
+
 </body>
 </html>

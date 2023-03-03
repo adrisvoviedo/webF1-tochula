@@ -1,3 +1,9 @@
+body{
+    background-color: rgb(21, 71, 53);
+}
+
+
+
 .title-bio h1{
     text-align: center;
     border: 12px;
@@ -16,12 +22,25 @@
     
   }
   
-
   button {
     display: block;
     margin: 0 auto;
     color: white;
   }
+  .texto-alineacion{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    text-align: justify;
+
+  }
+  .texto-alineacion p{
+    margin-right: 20px;
+    color: white;
+  }
+  
   
  
   
