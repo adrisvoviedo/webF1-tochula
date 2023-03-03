@@ -99,6 +99,8 @@ section h2{
   width: 50%;
 }
 
+
+
 .section2 h3 {
   padding-bottom: 20px;
   text-align: center;
@@ -167,6 +169,15 @@ section h2{
 
 .section6 h2 {
   width: 65%;
+}
+.section4 p{
+  text-align: justify;
+}
+.section4 p{
+  font-style: italic;
+}
+.div_imagen2{
+  text-align: justify;
 }
 
 @media screen and (max-width: 600px) {
