@@ -103,6 +103,10 @@ section h2 {
   width: 50%;
 }
 
+.section4 img{
+  border-radius: 10px;
+
+}
 .section2 h3 {
   padding-bottom: 20px;
   text-align: center;
