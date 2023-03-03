@@ -16,7 +16,7 @@ ul {
 }
 
 p {
-  padding: 15px 0;
+  display: flex;
   text-align: justify;
 }
 a {
@@ -49,6 +49,12 @@ a {
   padding: 12px;
 }
 
+.section6 a {
+  background-color: rgb(21, 71, 53);
+  color: white;
+  padding: 12px;
+}
+
 .section1 h2 {
   width: 100%;
   text-align: center;
@@ -57,10 +63,9 @@ a {
 
 .ventajas {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 12px;
 }
 
 .ventajas div {
@@ -73,10 +78,10 @@ a {
 .ventajas h3 {
   align-self: center;
 }
-.section3 p{
+.section3 p {
   text-align: justify;
 }
-section h2{
+section h2 {
   text-align: center;
   text-decoration: underline;
 }
@@ -92,7 +97,6 @@ section h2{
   display: flex;
   flex-direction: column;
   width: 50%;
-  
 }
 
 .section2 img {
@@ -103,8 +107,6 @@ section h2{
   border-radius: 10px;
 
 }
-
-
 .section2 h3 {
   padding-bottom: 20px;
   text-align: center;
@@ -117,7 +119,7 @@ section h2{
   align-items: center;
   padding: 10px;
 }
-.caracteristicas h3{
+.caracteristicas h3 {
   margin-top: 12px;
   text-align: center;
 }
@@ -169,24 +171,32 @@ section h2{
 .section6 {
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .section6 h2 {
-  width: 65%;
+  width: 60%;
 }
-.section4 p{
+.botones {
+  display: flex;
+  gap: 1rem;
+}
+.section4 p {
   text-align: justify;
 }
-.section4 p{
+.section4 p {
   font-style: italic;
 }
-.div_imagen2{
+.div_imagen2 {
   text-align: justify;
 }
 
 @media screen and (max-width: 600px) {
   .ventajas {
     width: 100%;
+    flex-direction: column;
+  }
+  .botones {
     flex-direction: column;
   }
 }
@@ -203,5 +213,9 @@ section h2{
   }
   .section4 img {
     width: 75%;
+  }
+  .section6 {
+    flex-direction: column;
+    gap: 2rem;
   }
 }
