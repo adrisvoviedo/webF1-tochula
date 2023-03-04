@@ -1,129 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INSCRIPCIÓN</title>
-    <link rel="stylesheet" href="unirse.css">
+    <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="header.css">
 </head>
-<body>
-    
-    <form>
-        <div class="contacto">
-            <h1>Formulario de inscripcion</h1>
-        </div>
-            
-            <a href="index.html">Página principal</a> <br>
-         
-        <div class="form"> 
-            <label for="nombre">Nombre:</label><br>
-        <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre"><br><br>
 
-        <label for="nombre">Apellidos:</label><br>
-        <input type="text" id="nombre" name="nombre" placeholder="Escriba sus apellidos"><br><br>
+<header>
+    <div class="logo">
+        <img class="fotoAlonso" src="./imagenes/nano-Pajarito.png" alt="Foto de Fernando Alonso">
+        <a href="index.html#">
+            <h1>Unirse</h1>
+        </a>
+    </div>
+    <nav class="navbar">
+        <input type="checkbox" id="check">
+        <label for="check" class="burger"><svg class="iconoMenu" width="16" height="16" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+            </svg></label>
+        <ul class="movilOculto">
+            <li><a href="index.html#1">INICIO</a></li>
+            <li> <a href="index.html#2">BIOGRAFÍA</a></li>
+            <li> <a href="index.html#3">LOGROS</a></li>
+            <li> <a href="index.html#4">COCHES</a></li>
+            <li> <a href="index.html#5">FORMULA1</a>
+            </li>
+            <li> <a href="index.html#6">CONTACTO</a></li>
+        </ul>
+    </nav>
+</header>
 
-        <label for="direccion">Domicilio:</label><br>
-        <input type="text" id="direccion" name="direccion" placeholder="Escriba su domicilio"><br><br>
+<body class="body">
+    <div class="cuerpo gris">
 
-        <label for="f_nacimiento">Fecha de Nacimiento:</label><br>
-        <input type="date" id="f_nacimiento" name="f_nacimiento"><br><br>
+        <div class="form">
+            <h2>Formulario de inscripcion</h2>
+            <div class="cont_formulario">
+                <form class="formulario" action="index.html">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre">
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" placeholder="email@gmail.com"><br><br>
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos" placeholder="Escriba sus apellidos">
 
-        <label for="telefono">Teléfono:</label><br>
-        <input type="tel" id="telefono" name="telefono" placeholder="XXX XXX XXX"><br><br>
-        
-        <input type="button" value="ENVIAR FORMULARIO">
+                    <label for="direccion">Domicilio:</label>
+                    <input type="text" id="direccion" name="direccion" placeholder="Escriba su domicilio">
+                    <label for="f_nacimiento">Fecha de Nacimiento:</label>
+                    <input type="date" id="f_nacimiento" name="f_nacimiento">
 
-    </form>
-    <footer>
-        <div class="cuerpo">
-            <div class="arriba">
-                <ul>
-                    <li>
-                        <span>Mobile app</span>
-                    </li>
-                    <li>
-                        <span>Community</span>
-                    </li>
-                    <li>
-                        <span>Company</span>
-                    </li>
-                </ul>
-                <div>
-                    <img src="./imagenes/nano-Pajarito.png" alt="el nano">
-    
-                </div>
-                <ul>
-                    <li>
-                        <span>Help desk</span>
-    
-                    </li>
-                    <li>
-                        <span>Blog</span>
-                    </li>
-                    <li>
-                        <span>Resources</span>
-                    </li>
-                </ul>
-            </div>
-            <hr id="linea">
-            <div class="abajo">
-                <ul>
-                    <li>
-                        <a href="https://www.instagram.com/fernandoalo_oficial/" target="_blank">
-                            <svg class="redSocial" xmlns="http://www.w3.org/2000/svg" width="192" height="192"
-                                fill="#000000" viewBox="0 0 256 256" xmlns="https://www.instagram.com/fernandoalo_oficial/">
-                                <rect width="256" height="256" fill="none"></rect>
-                                <circle cx="128" cy="128" r="40" fill="none" stroke="#000000" stroke-miterlimit="10"
-                                    stroke-width="16"></circle>
-                                <rect x="36" y="36" width="184" height="184" rx="48" fill="none" stroke="#000000"
-                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></rect>
-                                <circle cx="180" cy="76" r="12"></circle>
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/FernandoAlonsoOficial" target="_blank">
-                            <svg class="redSocial" xmlns="http://www.w3.org/2000/svg" width="192" height="192"
-                                fill="#000000" viewBox="0 0 256 256">
-                                <rect width="256" height="256" fill="none"></rect>
-                                <circle cx="128" cy="128" r="96" fill="none" stroke="#000000" stroke-linecap="round"
-                                    stroke-linejoin="round" stroke-width="16"></circle>
-                                <path d="M168,88H152a23.9,23.9,0,0,0-24,24V224" fill="none" stroke="#000000"
-                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path>
-                                <line x1="96" y1="144" x2="160" y2="144" fill="none" stroke="#000000" stroke-linecap="round"
-                                    stroke-linejoin="round" stroke-width="16"></line>
-                            </svg>
-                        </a>
-    
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/alo_oficial">
-                            <svg class="redSocial" xmlns="http://www.w3.org/2000/svg" width="192" height="192"
-                                fill="#000000" viewBox="0 0 256 256">
-                                <rect width="256" height="256" fill="none"></rect>
-                                <path
-                                    d="M128,88c0-22,18.5-40.3,40.5-40a40,40,0,0,1,36.2,24H240l-32.3,32.3A127.9,127.9,0,0,1,80,224c-32,0-40-12-40-12s32-12,48-36c0,0-64-32-48-120,0,0,40,40,88,48Z"
-                                    fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="16"></path>
-                            </svg>
-                        </a>
-    
-                    </li>
-    
-                </ul>
-                <span class="textoFinal">Arriba teneis las redes sociales del nano </span>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="email@gmail.com">
+
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="XXX XXX XXX">
+
+                    <button type="submit">Enviar formulario </button>
+
+                </form>
             </div>
         </div>
-        </div>
-        
-    </footer>
-    
-    
-
+    </div>
 </body>
+
+<footer class="footer">
+    <div class="cuerpo">
+        <div class="arriba">
+            <ul>
+                <li>
+                    <span>Mobile app</span>
+                </li>
+                <li>
+                    <span>Community</span>
+                </li>
+                <li>
+                    <span>Company</span>
+                </li>
+            </ul>
+            <div>
+                <img src="./imagenes/nano-Pajarito.png" alt="el nano">
+
+            </div>
+            <ul>
+                <li>
+                    <span>Help desk</span>
+
+                </li>
+                <li>
+                    <span>Blog</span>
+                </li>
+                <li>
+                    <span>Resources</span>
+                </li>
+            </ul>
+        </div>
+        <hr id="linea">
+        <div class="abajo">
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/fernandoalo_oficial/" target="_blank">
+                        <svg class="redSocial" xmlns="http://www.w3.org/2000/svg" width="192" height="192"
+                            fill="#000000" viewBox="0 0 256 256" xmlns="https://www.instagram.com/fernandoalo_oficial/">
+                            <rect width="256" height="256" fill="none"></rect>
+                            <circle cx="128" cy="128" r="40" fill="none" stroke="#000000" stroke-miterlimit="10"
+                                stroke-width="16"></circle>
+                            <rect x="36" y="36" width="184" height="184" rx="48" fill="none" stroke="#000000"
+                                stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></rect>
+                            <circle cx="180" cy="76" r="12"></circle>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/FernandoAlonsoOficial" target="_blank">
+                        <svg class="redSocial" xmlns="http://www.w3.org/2000/svg" width="192" height="192"
+                            fill="#000000" viewBox="0 0 256 256">
+                            <rect width="256" height="256" fill="none"></rect>
+                            <circle cx="128" cy="128" r="96" fill="none" stroke="#000000" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="16"></circle>
+                            <path d="M168,88H152a23.9,23.9,0,0,0-24,24V224" fill="none" stroke="#000000"
+                                stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path>
+                            <line x1="96" y1="144" x2="160" y2="144" fill="none" stroke="#000000" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="16"></line>
+                        </svg>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="https://twitter.com/alo_oficial">
+                        <svg class="redSocial" xmlns="http://www.w3.org/2000/svg" width="192" height="192"
+                            fill="#000000" viewBox="0 0 256 256">
+                            <rect width="256" height="256" fill="none"></rect>
+                            <path
+                                d="M128,88c0-22,18.5-40.3,40.5-40a40,40,0,0,1,36.2,24H240l-32.3,32.3A127.9,127.9,0,0,1,80,224c-32,0-40-12-40-12s32-12,48-36c0,0-64-32-48-120,0,0,40,40,88,48Z"
+                                fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="16"></path>
+                        </svg>
+                    </a>
+
+                </li>
+
+            </ul>
+            <span class="textoFinal">Arriba teneis las redes sociales del nano </span>
+        </div>
+    </div>
+    </div>
+
+</footer>
+
 </html>
