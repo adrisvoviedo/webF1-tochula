@@ -1,34 +1,65 @@
-* {
-    box-sizing: border-box;
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-  }
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 2rem 0;
+  gap: 2rem;
+}
+.cont_formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75%;
+  gap: 1rem;
+}
 
-  .contacto{
-    background-color: rgb(21, 71, 53);
-    color: white;
-  }
+body ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  text-align: left;
+  flex-wrap: wrap;
+}
 
-  .form{
-    background-color: lightgray;
-  }
-  ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    text-align: left;
-    flex-wrap: wrap;
-  }
+body a {
+  text-decoration: none;
+}
+body button {
+  align-self: center;
+  max-width: fit-content;
+  padding: 1rem;
+  border: 2px solid rgba(124, 173, 156, 0.889);
+  color: rgba(124, 173, 156, 0.889);
+  background-color: rgb(21, 71, 53);
+  border-radius: 8px;
+}
+body button:hover {
+  background-color: rgba(56, 110, 110, 0.743);
+  border: 2px solid rgb(21, 71, 53);
+  border-radius: 16px;
+  color: rgb(21, 71, 53);
+  transition: 0.5s ease;
+}
+.privacidad {
+  display: flex;
+  align-self: center;
+  gap: 3rem;
+}
 
-  a {
-    text-decoration: none;
-  }
-  
-  .cuerpo {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-   
-  }
+.cuerpo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gris {
+  background-color: lightgray;
+}
